@@ -54,12 +54,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const btn = form.querySelector("button");
       const originalText = btn.innerText;
 
-      btn.innerText = "SENDING INQUIRY...";
+      btn.innerText = "MENGIRIM...";
       btn.style.opacity = "0.7";
       btn.disabled = true;
 
       setTimeout(() => {
-        btn.innerText = "INQUIRY SENT SUCCESSFULLY";
+        btn.innerText = "PERTANYAAN BERHASIL TERKIRIM";
         btn.style.backgroundColor = "#27ae60";
         form.reset();
 
